@@ -152,33 +152,21 @@
 // }; 
 
 //Q6
-// // a) Take three subjects name from the user and store them in 3 different variables.
 // var subject1 = prompt("Enter the name of the first subject:");
 // var subject2 = prompt("Enter the name of the second subject:");
 // var subject3 = prompt("Enter the name of the third subject:");
-
-// // b) Total marks for each subject is 100, store it in another variable.
 // var totalMarks = 100;
-
-// // c) Take obtained marks for the first subject from the user and store it in a different variable.
 // var obtainedMarksSubject1 = parseFloat(prompt("Enter the obtained marks for " + subject1 + ":"));
-
-// // d) Take obtained marks for remaining 2 subjects from the user and store them in variables.
 // var obtainedMarksSubject2 = parseFloat(prompt("Enter the obtained marks for " + subject2 + ":"));
 // var obtainedMarksSubject3 = parseFloat(prompt("Enter the obtained marks for " + subject3 + ":"));
-
-// // e) Now calculate total marks and percentage and show the result in the browser using a table.
 // var totalObtainedMarks = obtainedMarksSubject1 + obtainedMarksSubject2 + obtainedMarksSubject3;
 // var totalPercentage = (totalObtainedMarks / (3 * totalMarks)) * 100;
-
-// // Display the result in a table format
 // document.write("<table border='1'>");
 // document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
 // document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject1 + "</td></tr>");
 // document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject2 + "</td></tr>");
 // document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject3 + "</td></tr>");
 // document.write("</table>");
-
 // document.write("<br>");
 // document.write("Total Obtained Marks: " + totalObtainedMarks + "<br>");
 // document.write("Total Percentage: " + totalPercentage.toFixed(2) + "%");
