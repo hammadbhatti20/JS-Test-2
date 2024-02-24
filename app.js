@@ -118,3 +118,67 @@
 
 // document.write(`<h1>The Lifetime Supply Calculator</h1> </br> </br> </br> Fovurite Snack: ${favoriteSnack} </br> Current age: ${currentAge} </br> Estimated Maximum Age: ${maximumAge} </br> Amount of snacks per day: ${snacksPerDay} </br> You will need ${totalSnacksNeeded} ${favoriteSnack} to last you until the ripe old age of ${maximumAge}`);
 
+
+//Chapter No: 6
+
+//Q1
+// var a = 10;
+// document.write(`Result </br> The value of a is: ${a}`);
+// ++a;
+// document.write(`</br> </br> </br> The value of ++a is: ${a} </br> Now the value of a is: ${a}`);
+// a++;
+// document.write(`</br> </br> </br> The value of a++ is: 11 </br> Now the value of a is: ${a}`);
+// --a;
+// document.write(`</br> </br> </br> The value of --a is: ${a} </br> Now the value of a is: ${a}`);
+// a--;
+// document.write(`</br> </br> </br> The value of a++ is: 11 </br> Now the value of a is: ${a}`);
+
+//Q2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--, result2 = --a, result3 = --a - --b, result4 = --a - --b + ++b, result5 = --a - --b + ++b + b--;
+// document.write(`a is ${a} </br> b is ${b} </br> result is ${result} </br> result2 is ${result2} </br> result3 is ${result3} </br> result4 is ${result4} </br> result5 is ${result5}`);
+
+//Q3
+// var userFirstName = prompt("Enter Your First Name:");
+// var userLastName = prompt("Enter Your Last Name:");
+// alert("MR. " +userFirstName + userLastName + " Hello World!")
+
+//Q4/5
+// var table = +prompt("Enter Desire Table Number");
+// if (table > 0) {
+//     document.write("Table of ",table,"</br>",table," * 1 = ",table * 1,"</br>",table," * 2 = ",table * 2,"</br>",table," * 3 = ",table * 3,"</br>",table," * 4 = ",table * 4,"</br>",table," * 5 = ",table * 5,"</br>",table," * 6 = ",table * 6,"</br>",table," * 7 = ",table * 7,"</br>",table," * 8 = ",table * 8,"</br>",table," * 9 = ",table * 9,"</br>",table," * 10 = ",table * 10,);
+// } else {
+//     document.write("Table of ",5,"</br>",5," * 1 = ",5 * 1,"</br>",5," * 2 = ",5 * 2,"</br>",5," * 3 = ",5 * 3,"</br>",5," * 4 = ",5 * 4,"</br>",5," * 5 = ",5 * 5,"</br>",5," * 6 = ",5 * 6,"</br>",5," * 7 = ",5 * 7,"</br>",5," * 8 = ",5 * 8,"</br>",5," * 9 = ",5 * 9,"</br>",5," * 10 = ",5 * 10,);
+// }; 
+
+//Q6
+// // a) Take three subjects name from the user and store them in 3 different variables.
+// var subject1 = prompt("Enter the name of the first subject:");
+// var subject2 = prompt("Enter the name of the second subject:");
+// var subject3 = prompt("Enter the name of the third subject:");
+
+// // b) Total marks for each subject is 100, store it in another variable.
+// var totalMarks = 100;
+
+// // c) Take obtained marks for the first subject from the user and store it in a different variable.
+// var obtainedMarksSubject1 = parseFloat(prompt("Enter the obtained marks for " + subject1 + ":"));
+
+// // d) Take obtained marks for remaining 2 subjects from the user and store them in variables.
+// var obtainedMarksSubject2 = parseFloat(prompt("Enter the obtained marks for " + subject2 + ":"));
+// var obtainedMarksSubject3 = parseFloat(prompt("Enter the obtained marks for " + subject3 + ":"));
+
+// // e) Now calculate total marks and percentage and show the result in the browser using a table.
+// var totalObtainedMarks = obtainedMarksSubject1 + obtainedMarksSubject2 + obtainedMarksSubject3;
+// var totalPercentage = (totalObtainedMarks / (3 * totalMarks)) * 100;
+
+// // Display the result in a table format
+// document.write("<table border='1'>");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+// document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject1 + "</td></tr>");
+// document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject2 + "</td></tr>");
+// document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarksSubject3 + "</td></tr>");
+// document.write("</table>");
+
+// document.write("<br>");
+// document.write("Total Obtained Marks: " + totalObtainedMarks + "<br>");
+// document.write("Total Percentage: " + totalPercentage.toFixed(2) + "%");
