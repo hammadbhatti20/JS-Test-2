@@ -170,3 +170,25 @@
 // document.write("<br>");
 // document.write("Total Obtained Marks: " + totalObtainedMarks + "<br>");
 // document.write("Total Percentage: " + totalPercentage.toFixed(2) + "%");
+
+
+// Chapter 6 (Math Expression II)
+
+//Q1
+var x = 99;
+x = x + 1 ;
+console.log(x);
+
+//Q2
+x = x -1;
+console.log(x);
+
+//Q3
+var x = 50; 
+var y = x++;
+console.log(y);
+
+//Q4
+var y = 50; 
+var z = --y;
+console.log(z);
