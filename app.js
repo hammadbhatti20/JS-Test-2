@@ -175,120 +175,119 @@
 // Chapter 6 (Math Expression II)
 
 //Q1
-var x = 99;
-x = x + 1 ;
-console.log(x);
+// var x = 99;
+// x = x + 1 ;
+// console.log(x);
 
 //Q2
-x = x -1;
-console.log(x);
+// x = x -1;
+// console.log(x);
 
 //Q3
-var x = 50; 
-var y = x++;
-console.log(y);
+// var x = 50; 
+// var y = x++;
+// console.log(y);
 
 //Q4
-var y = 50; 
-var z = --y;
-console.log(z);
+// var y = 50; 
+// var z = --y;
+// console.log(z);
 
 //Q5
-var num = 60, newNum = --num ;
-console.log(newNum);
+// var num = 60, newNum = --num ;
+// console.log(newNum);
 
 //Q6
-var value = 1, newValue = value;
-console.log(newValue);
+// var value = 1, newValue = value;
+// console.log(newValue);
 
 //Q7
-var value2nd = 2, newValue2nd = value2nd;
-alert(newValue2nd);
+// var value2nd = 2, newValue2nd = value2nd;
+// alert(newValue2nd);
 
 
 // Chapter 7 (Math Expression III)
 
 //Q1
-var calculatedNum = 2 + (2 * 6);
-console.log(calculatedNum);
+// var calculatedNum = 2 + (2 * 6);
+// console.log(calculatedNum);
 
 //Q2
-var
-calculatedNum2 = (2 + 2) * 6;
-console.log(calculatedNum2);
+// var calculatedNum2 = (2 + 2) * 6;
+// console.log(calculatedNum2);
 
 //Q3
-var calculatedNum3 = (2 + 2) * (4 + 2);
-console.log(calculatedNum3);
+// var calculatedNum3 = (2 + 2) * (4 + 2);
+// console.log(calculatedNum3);
 
 //Q4
-var calculatedNum4 = ((2 + 2) * 4) + 2;
-console.log(calculatedNum4);
+// var calculatedNum4 = ((2 + 2) * 4) + 2;
+// console.log(calculatedNum4);
 
 //Q5
-var calculatedNum5 = (2 + 2) * (4 + 10);
-console.log(calculatedNum5);
+// var calculatedNum5 = (2 + 2) * (4 + 10);
+// console.log(calculatedNum5);
 
 //Q6
-var calculatedNum6 = (2 + 2) * (4 + 10);
-console.log(calculatedNum6);
+// var calculatedNum6 = (2 + 2) * (4 + 10);
+// console.log(calculatedNum6);
 
 //Q7
-var calculatedNum7 = (4 / 2) * 4;
-console.log(calculatedNum7);
+// var calculatedNum7 = (4 / 2) * 4;
+// console.log(calculatedNum7);
 
 
 // Chapter 8 (Concatenating Text Strings)
 
 //Q1
-var numStr = "2" + "2";
-console.log(numStr);
+// var numStr = "2" + "2";
+// console.log(numStr);
 
 //Q2
-var message = ("Hello," + "Dolly");
-console.log(message);
+// var message = ("Hello," + "Dolly");
+// console.log(message);
 
 //Q3
-alert("33" + 3);
+// alert("33" + 3);
 
 //Q4
-alert("Pakistan" + "Zindabad");
+// alert("Pakistan" + "Zindabad");
 
 //Q5
-var Str = "hammadbhatti";
-var Num = 20;
-alert(Str + Num);
+// var Str = "hammadbhatti";
+// var Num = 20;
+// alert(Str + Num);
 
 //Q6
-var n = "Hammad";
-var sN = " Bhatti";
-var fulName = n + sN;
-console.log(fulName);
+// var n = "Hammad";
+// var sN = " Bhatti";
+// var fulName = n + sN;
+// console.log(fulName);
 
 
 // Chapter 9 (Prompts)
 
 //Q1
-var my1stName = prompt("Enter first name");
-alert(my1stName);
+// var my1stName = prompt("Enter first name");
+// alert(my1stName);
 
 //Q2
-var myCountry = prompt("Enter country name","China");
-alert(myCountry);
+// var myCountry = prompt("Enter country name","China");
+// alert(myCountry);
 
 //Q3
-var yourName = prompt("Enter Your Name");
-alert(yourName);
+// var yourName = prompt("Enter Your Name");
+// alert(yourName);
 
 //Q4
-var myMessage = prompt("Enter Your Message","Hello World!");
-alert(myMessage);
+// var myMessage = prompt("Enter Your Message","Hello World!");
+// alert(myMessage);
 
 //Q5
-var messageNew = "Please enter your response:";
-var defaultResponse = "Hello World!";
-var userResponse = prompt(messageNew, defaultResponse);
-console.log("User's Response:", userResponse);
+// var messageNew = "Please enter your response:";
+// var defaultResponse = "Hello World!";
+// var userResponse = prompt(messageNew, defaultResponse);
+// console.log("User's Response:", userResponse);
 
 //Q6
-alert("User's Response:", userResponse);
+// alert("User's Response:", userResponse);
